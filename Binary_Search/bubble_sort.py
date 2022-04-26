@@ -1,6 +1,6 @@
 # here we are going to be familiar with bubble sort algorithm
 
-a = [1,2,3,4,5,9,7,8]
+a = [56,78,86,23,757,82,95,9,8,4]
 b = len (a)
 for i in range (b):
     swap = False
@@ -10,7 +10,6 @@ for i in range (b):
             a[j] = a[j+1]
             a[j+1]= temp
             swap = True
-            print ('i')
     if not swap:
         break
 print (a)
