@@ -1,4 +1,8 @@
 # merge sort algorithm
+# this sorting method is using divide and conquere technique.
+# first we have split the array in to sub lists with only one element 
+# then merge all such elements in sorted order one by one 
+# finally we will get a sorted list
 def mergesort(array):
     if len(array) > 1:
 
